@@ -4,13 +4,11 @@ def e_primo(n):
     primo = True
     if n <2:
         return False
-    elif n==2:
-        primo = True
     else:
         primo = True        
-        for i in range(3,n):
+        for i in range(2,n):
             if n%i == 0:
-                return False
+                primo = False
     return primo
 
 for i in range(1,num+1):

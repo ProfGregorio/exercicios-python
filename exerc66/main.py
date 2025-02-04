@@ -3,6 +3,7 @@ print("*"*100)
 print("BOLETIM ACADÊMICO")
 print("*"*100)
 
+dicionario= {"90" :9}
 if __name__=='__main__':    
     desempenho = []
     aluno = []
